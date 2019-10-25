@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/nav_and"
+        android:icon="@drawable/ic_hourglass_full_black_24dp"
+        android:title="Andamento"/>
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="Historico"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Config"/>
+</menu>
