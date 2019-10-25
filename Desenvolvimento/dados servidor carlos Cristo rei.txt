@@ -1,0 +1,11 @@
+usuarios      senhas
+administrador: Ccrei2012
+carlos:  Ccrei2019
+marizelandia: Carlosccrei19
+
+professor: Colegio2019
+financeiro: Colegio2019
+Secretaria: Colegio2019
+Cordenacao: Colegio2019
+
+Aluno: Escola2019

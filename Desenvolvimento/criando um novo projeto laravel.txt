@@ -1,0 +1,5 @@
+entre na pasta do wamp -> www 
+agora clicke em arquivo 
+agora em abri um power shell 
+e digite
+composer create-project laravel/laravel Nome_do_Projeto --prefer-dist

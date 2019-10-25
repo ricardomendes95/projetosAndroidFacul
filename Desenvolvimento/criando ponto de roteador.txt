@@ -1,0 +1,57 @@
+Passo 1
+Abra o Menu Iniciar e digite o comando cmd. Quando o Prompt de comando aparecer na lista, clique sobre ele com o botão direito do mouse e clique em “Executar como administrador”.
+
+
+Passo 2
+Na tela do Prompt de Comando, digite a sequência abaixo e pressione Enter:
+
+netsh wlan show drivers
+
+Depois disso, aguarde uns instantes até que todos os dados sejam carregados na tela. Como na imagem abaixo, verifique se a informação “Rede hospedada compatível” aparece como presente. Lembre-se de ativar a placa de rede sem fio, pois, caso contrário, não será possível realizar este procedimento.
+
+
+Caso a placa não esteja ativada, faça o seguinte:
+
+Abra o Menu Iniciar e procure pela Central de Rede e Compartilhamento.
+
+
+Na tela que se abriu, clique sobre a opção “Alterar as configurações do adaptador”.
+
+
+Na nova janela, clique com o botão direito sobre a opção “Wi-Fi” e vá em “Ativar”.
+
+
+Pronto, agora você já pode compartilhar a sua rede Wi-Fi pelo Windows 10.
+
+Compartilhando a Wi-Fi pelo Windows 10
+Agora que você já conferiu que a sua placa de rede sem fio está ativa, é hora de começar a compartilhar a rede em si.
+
+Passo 1
+Ainda no Prompt de Comando, execute o seguinte comando:
+
+netsh wlan set hostednetwork ssid=REDE key=SENHA mode=allow
+
+Antes de colar o código no Prompt, lembre de personalizar as suas informações. Onde se lê “REDE”, você deve substituir pelo nome que desejar dar à sua rede. Onde se lê “SENHA”, você deve substituir pela senha que vai proteger o acesso à sua rede sem fio. A senha precisa ter entre 8 e 63 caracteres e só podem ser usados letras e números (nada de acentos, espaços ou outros caracteres especiais).
+
+Passo 2
+Depois de configurar a rede, digite o código abaixo e pressione Enter:
+
+netsh wlan start hostednetwork
+
+Isso vai fazer com que a rede seja reiniciada.
+
+Passo 3
+Abra o Menu Iniciar e procure pela opção “Exibir conexões de rede”.
+
+
+Passo 4
+Na tela que se abriu, clique com o botão direito do mouse sobre a rede que você acabou de criar e acesse o menu “Propriedades”.
+
+
+Passo 5
+Na nova janela, acesse a aba “Compartilhamento” e marque a caixa “Permitir que outros usuários da rede se conectem pela conexão deste computador à Internet”.
+
+
+Além disso, selecione no menu logo abaixo a rede em seu computador que será a base do acesso à internet. É por meio dela que você vai se conectar. Clique em OK e tudo estará pronto.
+
+Depois disso, você já vê a rede disponível em outros dispositivos e pode usá-la normalmente.
